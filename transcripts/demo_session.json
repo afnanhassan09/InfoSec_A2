@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": 1763246073360,
+    "sender": "alice",
+    "ciphertext": "ciphertext123",
+    "signature": "sigAlice"
+  },
+  {
+    "timestamp": 1763246073374,
+    "sender": "bob",
+    "ciphertext": "ciphertext456",
+    "signature": "sigBob"
+  },
+  {
+    "timestamp": 1763246073394,
+    "sender": "alice",
+    "ciphertext": "ciphertext789",
+    "signature": "sig3"
+  }
+]
