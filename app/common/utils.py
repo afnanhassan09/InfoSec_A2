@@ -1,6 +1,8 @@
 """Helper signatures: now_ms, b64e, b64d, sha256_hex."""
+import time
 
-def now_ms(): raise NotImplementedError
+def now_ms():
+    return int(time.time() * 1000)
 
 def b64e(b: bytes): raise NotImplementedError
 
